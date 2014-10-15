@@ -1,0 +1,69 @@
+@charset:utf-8;
+
+body {
+  background-color:#FFCCCC;
+}
+
+#menu {
+  margin:10px 3%;
+}
+
+li {
+  width:160px;
+  background-color:#FFFF99;
+}
+
+#歷史, #規則, #紀錄, #器材, #影片, #圖片, #文章 {
+  font-family:fantasy;
+  margin:8px 20px;
+  background-color:#FFCC66;
+}
+
+#歷史:hover, #規則:hover, #紀錄:hover, #器材:hover, #影片:hover, #圖片:hover, #文章:hover {
+  background-color:#FF6600;
+}
+
+#top {
+  width:90%;
+  height:200px;
+  margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:gray;
+}
+
+#content {
+  background-color:blue;
+  float:left;
+  margin:3px 10px;
+}
+
+#main-text {
+  background-color:red;
+  width:850px;
+  height:auto;
+  float:left;
+  margin-top:3px;
+  margin-left:50px;
+}
+
+#side-text {
+  background-color:yellow;
+  width:250px;
+  height:300px;
+  margin-top:3px;
+  margin-right:20px;
+  float:right;
+}
+
+#footer-text {
+  float:none;
+  background-color:green;
+  height:100px;
+  width:100%;
+}
+
+.logo {
+  width:200px;
+  height:200px;
+}
