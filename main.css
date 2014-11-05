@@ -1,7 +1,7 @@
 @charset:utf-8;
 
 body {
-  background-color:#FFCCCC;
+  background-color:black;
 }
 
 #menu {
@@ -13,6 +13,11 @@ li {
   background-color:#FFFF99;
 }
 
+ul > li > ul > li > a{
+  text-decoration:none;
+  display: block;
+}
+
 #歷史, #規則, #紀錄, #器材, #影片, #圖片, #文章 {
   font-family:fantasy;
   margin:8px 20px;
@@ -22,6 +27,11 @@ li {
 #歷史:hover, #規則:hover, #紀錄:hover, #器材:hover, #影片:hover, #圖片:hover, #文章:hover {
   background-color:#FF6600;
 }
+
+#top-2 {
+  
+}
+
 
 #top {
   width:90%;
@@ -58,7 +68,7 @@ li {
 
 #footer-text {
   float:none;
-  background-color:green;
+  background-color:gray;
   height:100px;
   width:100%;
 }

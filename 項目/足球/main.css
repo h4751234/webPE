@@ -1,16 +1,35 @@
 @charset:utf-8;
 
 body {
-  background-color:#FFCCCC;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color:black;
+  height: auto;
+  background-attachment: fixed;
 }
 
 #menu {
-  margin:10px 3%;
+  margin:10px 2%;
 }
 
 li {
-  width:160px;
-  background-color:#FFFF99;
+  width:161px;
+  color:black;
+}
+
+ul#menu > li {
+  background-color:gray;
+  text-weight:bold;
+}
+
+ul > li > ul > li > a{
+  text-decoration:none;
+  display: block;
+}
+
+a {
+  text-decoration:none;
+  color:white;
 }
 
 #歷史, #規則, #紀錄, #器材, #影片, #圖片, #文章 {
@@ -29,18 +48,17 @@ li {
   margin-top:20px;
   margin-left:auto;
   margin-right:auto;
-  background-color:gray;
 }
 
 #content {
-  background-color:blue;
   float:left;
   margin:3px 10px;
 }
 
 #main-text {
-  background-color:red;
-  width:850px;
+  color:white;
+  font-size:20px;
+  width:65%;
   height:auto;
   float:left;
   margin-top:3px;
@@ -48,7 +66,7 @@ li {
 }
 
 #side-text {
-  background-color:yellow;
+  color:white;
   width:250px;
   height:300px;
   margin-top:3px;
@@ -58,7 +76,7 @@ li {
 
 #footer-text {
   float:none;
-  background-color:green;
+  margin-bottom:0px;
   height:100px;
   width:100%;
 }
